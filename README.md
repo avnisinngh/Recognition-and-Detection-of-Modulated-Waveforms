@@ -18,8 +18,32 @@ This project focuses on **automatic recognition and classification of modulated 
 - **Joblib** – Model saving and loading.  
 
 ## 📂 Project Structure  
-📦 Modulation_Recognition ├── 📄 modulation_signal_generator.py # Generates modulation signals and saves them to files ├── 📄 modulation_recognition.py # Trains ML model & classifies signals ├── 📂 sample_inputs/ # Stores generated signals ├── 📄 modulation_model.pkl # Trained model file ├── 📄 README.md # Documentation
+Modulation_Recognition/
+├── 📄 modulation_signal_generator.py # Generates modulation signals and saves them to files
+├── 📄 modulation_recognition.py # Trains ML model & classifies signals
+├── 📂 sample_inputs/ # Stores generated signals
+├── 📄 modulation_model.pkl # Trained model file
+├── 📄 README.md # Documentation
 
+
+## 📌 Project Description  
+
+This project focuses on **Automatic Modulation Recognition (AMR)** for **DVB-S2X waveforms** using **machine learning**.  
+It includes signal generation, training a classification model, and recognizing modulation types.
+
+## 📜 Files and Directories  
+
+- **modulation_signal_generator.py** – Generates various modulation signals and stores them as files in `sample_inputs/`.  
+- **modulation_recognition.py** – Trains a machine learning model for modulation recognition and classifies signals.  
+- **sample_inputs/** – Stores generated modulation signal files.  
+- **modulation_model.pkl** – The trained machine learning model for modulation classification.  
+- **README.md** – Project documentation.
+
+## 🚀 How to Run  
+
+1. **Generate modulation signals**  
+   ```bash
+   python modulation_signal_generator.py
 
 ## 🔧 Installation  
 ```bash
