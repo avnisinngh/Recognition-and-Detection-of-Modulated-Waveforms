@@ -42,11 +42,9 @@ It includes signal generation, training a classification model, and recognizing 
 ## 🚀 How to Run  
 
 1. **Generate modulation signals**  
-   ```bash
    python modulation_signal_generator.py
 
 ## 🔧 Installation  
-```bash
 git clone https://github.com/yourusername/Modulation_Recognition.git
 cd Modulation_Recognition
 pip install -r requirements.txt
@@ -68,7 +66,7 @@ python modulation_recognition.py
 Option 1: Train a new model with custom sample size.
 Option 2: Test a new waveform signal file and get predictions.
 ## 📊 Model Performance
-The trained RandomForestClassifier achieves an accuracy of XX% on test data (replace with actual results).
+The trained RandomForestClassifier achieves an accuracy of 80% on test data.
 
 ## 📜 License
 This project is open-source and licensed under the MIT License.
